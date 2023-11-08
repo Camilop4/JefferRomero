@@ -1,1 +1,1 @@
-## Hola... Bienvenido a mi portafolio! 
+## Hola bienvenido a mi portafolio 
