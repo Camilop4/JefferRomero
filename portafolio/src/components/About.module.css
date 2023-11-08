@@ -1,0 +1,64 @@
+.Container {
+    display: inline-block;
+    width: auto;
+    box-shadow: 10px 5px 5px black;
+}
+
+.About {
+    display: flex;
+}
+
+.About h1 {
+    margin-left: 250px;
+}
+
+.About a {
+    margin-left: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-right: -150px;
+}
+
+
+.Me {
+    display: flex;
+}
+
+.Me img {
+    display:flex;
+    margin-left: 300px;
+    border-radius: 20rem;
+    width: 15rem;
+    height: 20rem;
+}
+
+.Me p {
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.Icon {
+    width: 100px;
+    height: 100px;
+}
+
+.Presentacion{
+    display: flex;
+}
+
+.Presentacion img {
+    width: 100px;
+    height: 100px;
+}
+
+.Presentacion2{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.Presentacion2 img {
+    width: 100px;
+    height: 100px;
+    margin-right: 250px;
+}
+
