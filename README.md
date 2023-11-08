@@ -1,2 +1,2 @@
 # JefferRomero
-Hola! vienbenido a mi Portafolio 
+Hola! BienVenido a mi Portafolio 
