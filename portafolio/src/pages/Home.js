@@ -11,33 +11,27 @@ import Contact from "../components/Contact";
 const Home = () => {
     return (
         <div className={styleH.home}>
+
         <section id="header">
           <Header />
-        </section>    
+        </section> 
+
         <section id="About">
         <About />
         </section>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        
         <section id="Skill">
         <Skill/>
         </section>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        
         <section id="Project">
         <Project />
         </section>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        
         <section id="Contact">
         <Contact />
         </section>
+        
         </div>
 
     );

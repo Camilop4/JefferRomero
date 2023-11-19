@@ -14,13 +14,21 @@ import {TbBrandNodejs} from "react-icons/tb";
 const Skill = () => {
     return (
         <div className={styleSkill.Skill}>
-            <h1>Skills</h1>
+            <h1 className={styleSkill.titulo}>Skills</h1>
 
             <div className={styleSkill.Soft}>
     
                 <h2>SOFT SKILLS</h2>
                 
-                    <FaRegCheckCircle />Exelente comunicacion  <FaRegCheckCircle /> Buen trabajo en equipo  <FaRegCheckCircle />Capacidad de adaptacion  <FaRegCheckCircle />Educacion constante  <FaRegCheckCircle />Proactividad     
+                <FaRegCheckCircle />Exelente comunicacion <br />
+                    <br />  
+                <FaRegCheckCircle /> Buen trabajo en equipo  <br />
+                    <br />
+                <FaRegCheckCircle />Capacidad de adaptacion <br />
+                    <br /> 
+                <FaRegCheckCircle />Educacion constante  <br />
+                    <br />
+                <FaRegCheckCircle />Proactividad     
                 
             </div>
 
@@ -28,7 +36,17 @@ const Skill = () => {
                 <h2>HARD SKILLS</h2>
                 
                 
-                    <FaCss3Alt className={styleSkill.Icon}/>  <FaAngular className={styleSkill.Icon}/> <FaHtml5 className={styleSkill.Icon}/> <FaReact className={styleSkill.Icon}/> <BiLogoPostgresql className={styleSkill.Icon}/> <BiLogoMongodb className={styleSkill.Icon}/> <BiLogoRedux className={styleSkill.Icon}/> <SiSequelize className={styleSkill.Icon}/> <AiFillGithub className={styleSkill.Icon}/> <TbBrandNodejs className={styleSkill.Icon}/> <DiJavascript className={styleSkill.Icon}/>
+                    <FaCss3Alt className={styleSkill.Icon}/>  
+                    <FaAngular className={styleSkill.Icon}/> 
+                    <FaHtml5 className={styleSkill.Icon}/> 
+                    <FaReact className={styleSkill.Icon}/> 
+                    <BiLogoPostgresql className={styleSkill.Icon}/> 
+                    <BiLogoMongodb className={styleSkill.Icon}/> 
+                    <BiLogoRedux className={styleSkill.Icon}/> 
+                    <SiSequelize className={styleSkill.Icon}/> 
+                    <AiFillGithub className={styleSkill.Icon}/> 
+                    <TbBrandNodejs className={styleSkill.Icon}/> 
+                    <DiJavascript className={styleSkill.Icon}/>
 
 
 

@@ -2,7 +2,8 @@
     display: block;
     align-content: center;
     box-sizing:border-box;
-
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
 }
 
 .About {
@@ -23,31 +24,80 @@
     border-radius: 10rem;
     justify-content: center;
     margin: 20px;
-    background-color: rgb(117, 131, 131);
-
 }
 
 .Me p {
     padding: 20px;  
+    
 }
 
 .Presentacion {
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    background-color: rgba(199, 201, 201, 0.918);
+    position: relative;
 }
 
 .Presentacion img {
     width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;  
+}
+
+.Presentacion p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #0e0d0d;
+    text-align:justify;
+}
+
+/* Aplicar estilos al hacer hover en el contenedor de la imagen */
+.Presentacion:hover img {
+    transform: scale(1.1);
+}
+
+/* Mostrar el texto al hacer hover en el contenedor de la imagen */
+.Presentacion:hover p {
+    opacity: 1;
 }
 
 
 
 .Presentacion2 {
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    background-color: rgba(199, 201, 201, 0.918);
+    position: relative;
+   
 }
 
 .Presentacion2 img {
     width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
 }
+
+.Presentacion2 P {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #0e0d0d;
+    text-align: center;
+}
+
+.Presentacion2:hover img {
+    transform: scale(1.1);
+}
+
+.Presentacion2:hover p {
+    opacity: 1;
+}
+
+
+
 

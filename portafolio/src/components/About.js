@@ -28,8 +28,8 @@ const About = () => {
                       
 
             <div className={styleAbout.Presentacion}>
-            <p>Soy desarrollador Full-Stack con un enfoque en la creacion de aplicaciones web creativas y funcionales. Graduado de Henry un bootCamp de mas de 800 horas de programacion, trabajando con varias tecnoclogias
-            </p>
+            {/*<p>Soy desarrollador Full-Stack con un enfoque en la creacion de aplicaciones web creativas y funcionales. Graduado de Henry un bootCamp de mas de 800 horas de programacion, trabajando con varias tecnoclogias
+            </p>*/}
 
             <img src={flecha1} alt="presentacion " />
             
@@ -38,10 +38,11 @@ const About = () => {
             </div>
 
             <div className={styleAbout.Presentacion2}>
-            <p>Estoy buscando oportunidades para aplicar y expandir mis habilidades como desarrollador en un etorno colaborativo. Estoy emocionado por contribuir a proyectos significativos y seguir aprendiendo en un entorno profesional
-            </p>
 
             <img src={flecha2} alt="FlechaAbajo" />
+
+            <p>Estoy buscando oportunidades para aplicar y expandir mis habilidades como desarrollador en un etorno colaborativo. Estoy emocionado por contribuir a proyectos significativos y seguir aprendiendo en un entorno profesional
+            </p>
 
             </div>
 
