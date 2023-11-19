@@ -24,25 +24,25 @@ const Header = () => {
     <header className={style.Header}>
       <p>Jeffer Camilo Romero</p>
       <div className={style.Container}>
-        <button onClick={toggleMenu}>
-          <FaBars />
+        <button onClick={toggleMenu} className={style.Boton}>
+          <FaBars className={style.Img}/>
         </button>
         {isMenuOpen && (
-          <nav>
-            <ul>
-              <li>
-                <Link onClick={() => scrollToSection('About')}>Acerca de Mi</Link>
-              </li>
-              <li>
+          <nav className={style.Navega}>
+            
+              <span>
+                <Link onClick={() => scrollToSection('About')}>Acerca de</Link>
+              </span>
+              <span>
                 <Link onClick={() => scrollToSection('Skill')}>Habilidades</Link>
-              </li>
-              <li>
+              </span>
+              <span>
                 <Link onClick={() => scrollToSection('Project')}>Proyectos</Link>
-              </li>
-              <li>
+              </span>
+              <span>
                 <Link onClick={() => scrollToSection('Contact')}>Contacto</Link>
-              </li>
-            </ul>
+              </span>
+            
           </nav>
         )}
       </div>

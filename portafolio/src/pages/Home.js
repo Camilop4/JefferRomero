@@ -11,8 +11,9 @@ import Contact from "../components/Contact";
 const Home = () => {
     return (
         <div className={styleH.home}>
-        <Header />
-        
+        <section id="header">
+          <Header />
+        </section>    
         <section id="About">
         <About />
         </section>

@@ -1,46 +1,45 @@
 .Header {
-    font-family: monospace;
+    font-family: 'Comic Neue', cursive;
     display: flex;
-    box-shadow: 0px 1px 1px grey; 
+    box-shadow: 2px 3px 5px grey;
+    border-radius: 5px; 
 }
 
 .Header p {
-    margin-left: auto;
-    font-size: xx-large;
-    margin-top: 30px;
+    font-size: large;
+    
+
 }
 
 .Container {
     margin-left: auto;
     display: flex;
-    position: absolute;
+    
 }
 
-.Container button {
-    margin-top: 10px;
-    height: 60px;
-    width: 50px;
-    border:rgba(2, 2, 3, 0.5);
-    cursor: pointer;
-
-}
-
-.Container img{
-    height: 50px;
-}
-
-
-.Container nav {
+.Boton {
     position: relative;
-    top: 100%;
-    left: 0;
-    right: 50px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    min-width: 120px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.Img{
+    height: 40px;
+    width: 30px;
+}
+
+.Navega {
+    justify-content: center;
+}
+
+
+
+
+ul {
+    text-decoration: none;
 }
 
 
@@ -51,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: rgb(71, 71, 71);
 }
 
 

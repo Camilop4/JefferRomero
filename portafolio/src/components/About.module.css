@@ -1,64 +1,53 @@
 .Container {
-    display: inline-block;
-    width: auto;
-    box-shadow: 10px 5px 5px black;
+    display: block;
+    align-content: center;
+    box-sizing:border-box;
+
 }
 
 .About {
-    display: flex;
-}
-
-.About h1 {
-    margin-left: 250px;
-}
-
-.About a {
-    margin-left: auto;
-    position: relative;
-    margin-top: 30px;
-    margin-right: -150px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    
 }
 
 
 .Me {
-    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
 }
 
 .Me img {
-    display:flex;
-    margin-left: 300px;
-    border-radius: 20rem;
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
+    border-radius: 10rem;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(117, 131, 131);
+
 }
 
 .Me p {
-    padding-left: 150px;
-    padding-top: 150px;
+    padding: 20px;  
 }
 
-.Icon {
-    width: 100px;
-    height: 100px;
-}
-
-.Presentacion{
-    display: flex;
+.Presentacion {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
 }
 
 .Presentacion img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
 }
 
-.Presentacion2{
-    display: inline-block;
-    margin-bottom: 50px;
+
+
+.Presentacion2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
 }
 
 .Presentacion2 img {
-    width: 100px;
-    height: 100px;
-    margin-right: 250px;
+    width: 100%;
 }
 
